@@ -1,0 +1,14 @@
+*.reg text eol=crlf diff
+*.ps1 text eol=crlf diff
+*.reg text eol=crlf diff
+*.ini text eol=crlf diff
+*.txt text eol=crlf diff
+*.htm text eol=crlf diff
+*.html text eol=crlf diff
+*.gitignore text eol=crlf diff
+*.gitattributes text eol=crlf diff
+*.gif binary
+*.ico binary
+*.jpg binary
+*.png binary
+*.exe binary

@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+alt+m",
+        "command": "gitProjectManager.openProjectNewWindow"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-gitProjectManager.openProjectNewWindow"
+    }
+]

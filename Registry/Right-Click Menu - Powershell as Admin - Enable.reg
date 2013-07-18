@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\PowershellAsAdmin]
+@="Powershell as Admin"
+"Extended"=-
+"Icon"="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,1"
+
+[HKEY_CLASSES_ROOT\Directory\shell\PowershellAsAdmin\command]
+@="powershell.exe -windowstyle hidden -Command \"Start-Process powershell -Verb RunAs -ArgumentList '-NoLogo','-NoExit','-Command cd ''\"\"%V\"\"'''\""
+ 
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellAsAdmin]
+@="Powershell as Admin"
+"Extended"=-
+"Icon"="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,1"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellAsAdmin\command]
+@="powershell.exe -windowstyle hidden -Command \"Start-Process powershell -Verb RunAs -ArgumentList '-NoLogo','-NoExit','-Command cd ''\"\"%V\"\"'''\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\PowershellAsAdmin]
+@="Powershell as Admin"
+"Extended"=-
+"Icon"="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,1"
+
+[HKEY_CLASSES_ROOT\Drive\shell\PowershellAsAdmin\command]
+@="powershell.exe -windowstyle hidden -Command \"Start-Process powershell -Verb RunAs -ArgumentList '-NoLogo','-NoExit','-Command cd ''\"\"%V\"\"'''\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\PowershellAsAdmin]
+@="Powershell as Admin"
+"Extended"=-
+"Icon"="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,1"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\PowershellAsAdmin\command]
+@="powershell.exe -windowstyle hidden -Command \"Start-Process powershell -Verb RunAs -ArgumentList '-NoLogo','-NoExit','-Command cd ''\"\"%V\"\"'''\""
+
