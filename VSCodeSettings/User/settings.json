@@ -1,0 +1,76 @@
+
+{
+    //workaround for VSC bug
+    "eslint.packageManager": "yarn",
+    "[powershell]": {
+        "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+    },
+    "editor.codeLens": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.mouseWheelZoom": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "none",
+    "editor.tabCompletion": true,
+    "files.associations": {
+        "*.ps1xml": "xml"
+    },
+    "files.autoSave": "off",
+    "files.defaultLanguage": "powershell",
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": false,
+    "git.autorefresh": false,
+    "git.confirmSync": false,
+    "powershell.codeFormatting.newLineAfterCloseBrace": false,
+    "powershell.codeFormatting.newLineAfterOpenBrace": false,
+    "powershell.codeFormatting.openBraceOnSameLine": true,
+    "powershell.codeFormatting.preset": "OTBS",
+    "powershell.enableProfileLoading": false,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.powerShellExePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "powershell.scriptAnalysis.settingsPath": "C:\\Users\\ALIEN\\Documents\\WindowsPowershell\\VSCodeSettings\\UserPSScriptAnalyzerSettings.psd1",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-NoLogo"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.menuBarVisibility": "default",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "editor.tokenColorCustomizations": {
+    //    "variables": "#be0000",
+    //    "strings": "#610000"
+    },
+    "team.showWelcomeMessage": false,
+    "gitlens.keymap": "chorded",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "editor.detectIndentation": false,
+    "sync.lastUpload": "2018-04-24T17:54:59.848Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.gist": "35a1a00c5abbd166af8c11d6eeee6916",
+    "workbench.colorTheme": "Monokai Dark Soda"
+}
