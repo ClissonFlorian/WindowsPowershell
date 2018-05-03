@@ -3,3 +3,6 @@ Modules/
 Scripts/
 Temp/
 Themes/
+VSCodeSettings/User/workspaceStorage/
+.vs/
+/Microsoft.PowerShellISE_profile.ps1
